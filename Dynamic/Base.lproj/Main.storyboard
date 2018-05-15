@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -9,11 +13,42 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="Dynamic" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CoF-pK-X1W">
+                                <rect key="frame" x="161" y="128" width="54" height="30"/>
+                                <state key="normal" title="pikachu"/>
+                                <connections>
+                                    <action selector="changeIcon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qK2-2H-h8v"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EbU-X9-wTY">
+                                <rect key="frame" x="16" y="128" width="38" height="30"/>
+                                <state key="normal" title="pichu"/>
+                                <connections>
+                                    <action selector="changeIcon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Syy-Ma-YZo"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Tj-QT-BfN">
+                                <rect key="frame" x="316" y="128" width="43" height="30"/>
+                                <state key="normal" title="raichu"/>
+                                <connections>
+                                    <action selector="changeIcon:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vS4-tl-mFo"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="EbU-X9-wTY" firstAttribute="centerY" secondItem="CoF-pK-X1W" secondAttribute="centerY" id="FAL-UD-d7S"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8Tj-QT-BfN" secondAttribute="trailing" constant="16" id="ObV-ym-hCa"/>
+                            <constraint firstItem="CoF-pK-X1W" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="htg-63-ihj"/>
+                            <constraint firstItem="8Tj-QT-BfN" firstAttribute="centerY" secondItem="CoF-pK-X1W" secondAttribute="centerY" id="pdc-5L-H9t"/>
+                            <constraint firstItem="CoF-pK-X1W" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="108" id="yJX-SD-Ymc"/>
+                            <constraint firstItem="EbU-X9-wTY" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="yLN-Kb-c96"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                 </viewController>

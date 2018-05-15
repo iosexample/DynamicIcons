@@ -12,6 +12,12 @@
 		F61A1B3C20AAA71B00C0D685 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61A1B3A20AAA71B00C0D685 /* Main.storyboard */; };
 		F61A1B3E20AAA71E00C0D685 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F61A1B3D20AAA71E00C0D685 /* Assets.xcassets */; };
 		F61A1B4120AAA71E00C0D685 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F61A1B3F20AAA71E00C0D685 /* LaunchScreen.storyboard */; };
+		F61A1B4F20AAA91A00C0D685 /* pichu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F61A1B4920AAA91A00C0D685 /* pichu@2x.png */; };
+		F61A1B5020AAA91A00C0D685 /* pikachu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F61A1B4A20AAA91A00C0D685 /* pikachu@3x.png */; };
+		F61A1B5120AAA91A00C0D685 /* pichu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F61A1B4B20AAA91A00C0D685 /* pichu@3x.png */; };
+		F61A1B5220AAA91A00C0D685 /* pikachu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F61A1B4C20AAA91A00C0D685 /* pikachu@2x.png */; };
+		F61A1B5320AAA91A00C0D685 /* raichu@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F61A1B4D20AAA91A00C0D685 /* raichu@2x.png */; };
+		F61A1B5420AAA91A00C0D685 /* raichu@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F61A1B4E20AAA91A00C0D685 /* raichu@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		F61A1B3D20AAA71E00C0D685 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F61A1B4020AAA71E00C0D685 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F61A1B4220AAA71E00C0D685 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F61A1B4920AAA91A00C0D685 /* pichu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pichu@2x.png"; sourceTree = "<group>"; };
+		F61A1B4A20AAA91A00C0D685 /* pikachu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pikachu@3x.png"; sourceTree = "<group>"; };
+		F61A1B4B20AAA91A00C0D685 /* pichu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pichu@3x.png"; sourceTree = "<group>"; };
+		F61A1B4C20AAA91A00C0D685 /* pikachu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pikachu@2x.png"; sourceTree = "<group>"; };
+		F61A1B4D20AAA91A00C0D685 /* raichu@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raichu@2x.png"; sourceTree = "<group>"; };
+		F61A1B4E20AAA91A00C0D685 /* raichu@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "raichu@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +66,7 @@
 		F61A1B3520AAA71B00C0D685 /* Dynamic */ = {
 			isa = PBXGroup;
 			children = (
+				F61A1B4820AAA90A00C0D685 /* Icons */,
 				F61A1B3620AAA71B00C0D685 /* AppDelegate.swift */,
 				F61A1B3820AAA71B00C0D685 /* ViewController.swift */,
 				F61A1B3A20AAA71B00C0D685 /* Main.storyboard */,
@@ -62,6 +75,19 @@
 				F61A1B4220AAA71E00C0D685 /* Info.plist */,
 			);
 			path = Dynamic;
+			sourceTree = "<group>";
+		};
+		F61A1B4820AAA90A00C0D685 /* Icons */ = {
+			isa = PBXGroup;
+			children = (
+				F61A1B4920AAA91A00C0D685 /* pichu@2x.png */,
+				F61A1B4B20AAA91A00C0D685 /* pichu@3x.png */,
+				F61A1B4C20AAA91A00C0D685 /* pikachu@2x.png */,
+				F61A1B4A20AAA91A00C0D685 /* pikachu@3x.png */,
+				F61A1B4D20AAA91A00C0D685 /* raichu@2x.png */,
+				F61A1B4E20AAA91A00C0D685 /* raichu@3x.png */,
+			);
+			path = Icons;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,7 +149,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				F61A1B4120AAA71E00C0D685 /* LaunchScreen.storyboard in Resources */,
+				F61A1B5220AAA91A00C0D685 /* pikachu@2x.png in Resources */,
+				F61A1B5120AAA91A00C0D685 /* pichu@3x.png in Resources */,
+				F61A1B5420AAA91A00C0D685 /* raichu@3x.png in Resources */,
 				F61A1B3E20AAA71E00C0D685 /* Assets.xcassets in Resources */,
+				F61A1B4F20AAA91A00C0D685 /* pichu@2x.png in Resources */,
+				F61A1B5020AAA91A00C0D685 /* pikachu@3x.png in Resources */,
+				F61A1B5320AAA91A00C0D685 /* raichu@2x.png in Resources */,
 				F61A1B3C20AAA71B00C0D685 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +245,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -267,7 +299,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
@@ -279,8 +311,8 @@
 		F61A1B4620AAA71E00C0D685 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Dynamic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -288,6 +320,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicalboy.Dynamic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -296,8 +329,8 @@
 		F61A1B4720AAA71E00C0D685 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Dynamic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -305,6 +338,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.magicalboy.Dynamic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
